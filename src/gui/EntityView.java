@@ -5,7 +5,7 @@ import javafx.beans.Observable;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
-import logic.Entity;
+import logic.entities.Entity;
 
 public abstract class EntityView extends ImageView implements InvalidationListener{
 

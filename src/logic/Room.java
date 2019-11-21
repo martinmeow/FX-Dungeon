@@ -1,5 +1,7 @@
 package logic;
 
+import logic.tiles.Tile;
+
 public class Room{
 	private Tile[][] tiles;
 	

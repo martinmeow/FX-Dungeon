@@ -1,4 +1,4 @@
-package logic;
+package logic.entities;
 
 import javafx.beans.InvalidationListener;
 import javafx.beans.Observable;

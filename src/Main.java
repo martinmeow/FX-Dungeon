@@ -1,4 +1,3 @@
-
 import gui.DungeonView;
 import javafx.application.*;
 import javafx.stage.*;

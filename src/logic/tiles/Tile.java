@@ -1,8 +1,9 @@
-package logic;
+package logic.tiles;
 
 import javafx.beans.InvalidationListener;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
+import logic.entities.Entity;
 
 public abstract class Tile {
 

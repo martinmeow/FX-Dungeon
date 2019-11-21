@@ -1,4 +1,6 @@
-package logic;
+package logic.tiles;
+
+import logic.entities.Entity;
 
 public class Shop extends Tile {
 

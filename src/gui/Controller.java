@@ -2,7 +2,10 @@ package gui;
 
 import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
-import logic.*;
+import logic.entities.Entity;
+import logic.entities.Player;
+import logic.tiles.Tile;
+import logic.Room;
 
 public class Controller {
 	private Player player;

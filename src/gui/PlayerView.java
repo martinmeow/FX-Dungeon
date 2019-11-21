@@ -1,10 +1,10 @@
 package gui;
 
 import javafx.scene.image.Image;
-import logic.Player;
+import logic.entities.Player;
 
 public class PlayerView extends EntityView {
 	public PlayerView(Player player) {
-		super(player, new Image("img/player.png"));
+		super(player, new Image("img/entities/player.png"));
 	}
 }

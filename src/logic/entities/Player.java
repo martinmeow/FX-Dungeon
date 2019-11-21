@@ -1,4 +1,4 @@
-package logic;
+package logic.entities;
 
 public class Player extends Entity{
 	

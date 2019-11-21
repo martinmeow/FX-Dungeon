@@ -1,6 +1,5 @@
 package gui;
 
-import javafx.scene.Node;
 import javafx.scene.layout.GridPane;
 import logic.Room;
 
@@ -12,8 +11,11 @@ public class RoomView extends GridPane{
 //		this.room = room;
 	}
 	
-	@Override
-	public void add(Node child, int columnIndex, int rowIndex) {
-		super.add(child, columnIndex, rowIndex);
+	public void add(EntityView entity) {
+		super.add(entity, entity.getEntity().getX(), entity.getEntity().getY());
+	}
+	
+	public void add(TileView tile) {
+		super.add(tile, tile.getTile().getX(), tile.getTile().getY());
 	}
 }
